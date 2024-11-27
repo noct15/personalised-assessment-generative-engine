@@ -13,7 +13,7 @@ You can either **download the repository as a ZIP file** or **clone it using Git
 
 - **Download ZIP**:
 
-  ![Download ZIP](https://github.com/user-attachments/assets/71e802ce-d5b0-4bea-af9a-4db926da6719)
+  ![Download ZIP](https://github.com/user-attachments/assets/62080faa-b9c7-41e4-8ed8-bf7dc806418a)
 
 - **Clone with Git**:
 
@@ -48,7 +48,7 @@ Follow these steps to generate randomised datasets for your assessments:
      ```bash
      node app.js
      ```
-     ![Running app.js](https://github.com/user-attachments/assets/aeb232f8-128f-4fd0-9cb8-c86c1d826838)
+     ![Running app.js](https://github.com/user-attachments/assets/65a44149-f8b4-4fd0-8241-fd1d3b9668e3)
 
      ![Script output](https://user-images.githubusercontent.com/64071081/199625452-10af770e-55cd-4e6f-a998-0ad081122c86.png)
 
@@ -92,26 +92,24 @@ After generating the datasets, follow these steps to make the files available to
      ```bash
      node app.js
      ```
-     ![Running zip creation script](https://github.com/user-attachments/assets/545f150a-a8a5-402f-8d6a-b65dbe3fc7a5)
+     ![Running zip creation script](https://github.com/user-attachments/assets/97cb0275-89a8-4e0b-8f60-ba7378b85256)
 
-     ![Zip script output](https://github.com/user-attachments/assets/f6f2eee2-2eb9-4f62-bb6e-4d93713b377e)
-     
-     ![Zip script output](https://github.com/user-attachments/assets/55b69fe7-eec2-427e-99eb-1523fcf97b87)
+     ![Zip script output](https://github.com/user-attachments/assets/fed29ad0-12af-487f-a8e9-bba10d2d8d6d)
 
-4. **Check Generated Zip Files**:
+3. **Check Generated Zip Files**:
 
    - The zip files are created in the directory specified by `OUTPATH`.
 
      ![Generated zip files](https://user-images.githubusercontent.com/64071081/199626213-2937d7ee-7c57-48b7-b34b-482dfafe7cac.png)
 
-5. **Upload Zip Files to Canvas**:
+4. **Upload Zip Files to Canvas**:
 
    - Upload all `.zip` files to a folder in Canvas.
    - Set the folder visibility to **"Only available to students with link"**.
 
      ![Canvas folder settings](https://user-images.githubusercontent.com/64071081/199626287-88f267c4-7e59-4aac-9cdb-332bf13d55b8.png)
 
-6. **Extract Download Links**:
+5. **Extract Download Links**:
 
    - Follow the steps in `1.Ready/0.Shared-Drive/Steps-Canvas.txt` to extract the download links and file IDs for each zip file.
      - **ef-main Element**:
@@ -126,7 +124,7 @@ After generating the datasets, follow these steps to make the files available to
 
        ![Find & Replace result](https://user-images.githubusercontent.com/64071081/199626432-6978936d-0573-44a4-8411-0492facf7557.png)
 
-7. **Save Links for Later Use**:
+6. **Save Links for Later Use**:
 
    - Save the extracted information in `3.Shoot/TEST 101/inOutFiles/TestFiles.csv`.
 
@@ -158,15 +156,15 @@ Now, generate the question and answer files for each version:
      ```bash
      node app.js
      ```
-     ![Running Q&A script](https://github.com/user-attachments/assets/6ab8bfae-9a65-4bbb-8431-3c76077cedb2)
+     ![Running Q&A script](https://github.com/user-attachments/assets/455179ec-4910-4ec4-9ad8-84131f376ce6)
 
-     ![Q&A script output](https://github.com/user-attachments/assets/733663fc-4ab8-4a26-a437-e574ff5d7bbc)
+     ![Q&A script output](https://github.com/user-attachments/assets/c3bed021-ed97-452b-a957-0d0c61190b9f)
 
 4. **Check Generated Q&A File**:
 
    - The generated Q&A file is located in `2.Aim/2.Test`.
 
-     ![Generated Q&A File](https://github.com/user-attachments/assets/9bebeed4-0225-4a3b-aa69-883f77bbc9b2)
+     ![Generated Q&A File](https://github.com/user-attachments/assets/9ad7274c-eb0c-45c7-9fbd-57da21dfc70d)
 
 [Back to Top](#top)
 
@@ -179,8 +177,8 @@ Finally, create the quizzes in Canvas using the generated Q&A files:
 1. **Prepare the Files**:
 
    - Move the generated Q&A file from `2.Aim/2.Test` to `3.Shoot/TEST 101/inOutFiles`.
-
-     ![Moving Q&A file](https://github.com/user-attachments/assets/b87b5746-98a5-47b7-b189-1de361cde37f)
+     
+     ![Moving Q&A file](https://github.com/user-attachments/assets/e80c7563-85f3-44dd-aad7-73ec18b1acac)
 
 2. **Configure `CreateTest.js`**:
 
@@ -228,9 +226,9 @@ Finally, create the quizzes in Canvas using the generated Q&A files:
      ```bash
      node CreateTest.js
      ```
-     ![Editing CreateTest.js](https://user-images.githubusercontent.com/64071081/199966037-dcdcc056-bfc4-4db2-bb49-c2c7c00824bb.png)
+     ![Running CreateTest.js](https://github.com/user-attachments/assets/6d588954-c8db-46de-88fb-6b1b86838b3c)
      
-     ![Running CreateTest.js](https://user-images.githubusercontent.com/64071081/199627283-f16a1bd4-c49f-41f8-8db7-0dec5fb35613.png)
+     ![CreateTest script output](https://user-images.githubusercontent.com/64071081/199627283-f16a1bd4-c49f-41f8-8db7-0dec5fb35613.png)
 
 5. **Verify Quizzes in Canvas**:
 
