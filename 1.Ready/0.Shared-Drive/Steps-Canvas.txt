@@ -1,0 +1,20 @@
+1. Get the HTML element for the Canvas folder where the assignment files are stored
+   Copy the 'ef-main' element containing the list of files
+   Paste the element in VS Code
+
+Use VS Code to:
+
+2. Find all results for the XPath command:
+   //a[@class = 'ef-name-col__link']/@href|//span[@class = 'ef-name-col__text']/text()
+	
+3. Copy the XPath output to a file. Sample output:
+
+   [Line 47] href: https://auckland.test.instructure.com/files/0123456/download?download_frd=1
+   [Line 47] null: 1-imdb-abcdefghi.zip
+   [Line 47] href: https://auckland.test.instructure.com/files/1234567/download?download_frd=1
+   [Line 47] null: 2-imdb-bcdefghij.zip
+
+4. Find and Replace the XPath output (with RegEx enabled and without the quotation marks):
+   
+   Find: "\[.+href: " 			Replace with: ""
+   Find: "$\n\[.+null: " 		Replace with: ","

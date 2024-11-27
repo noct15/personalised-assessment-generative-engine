@@ -1,0 +1,32 @@
+{
+  "iG6Zp4WDF": {
+    "q1q": "For video games released in the year \"1989\", how many more sales units were made in North America compared to Japan?",
+    "q1a": "26.79",
+    "q2q": "How many video games contain \"Wii\" in their name?",
+    "q2a": "52",
+    "q3q": "What are the total global sales for games that are <strong>not</strong> published by Nintendo?",
+    "q3a": "7080.72",
+    "q4q": "What is 8x + y, where x = 18 and y = 5?",
+    "q4a": "149"
+  },
+  "Z8lZJChRtn": {
+    "q1q": "For video games released in the year \"1997\", how many more sales units were made in North America compared to Japan?",
+    "q1a": "45.72",
+    "q2q": "How many video games contain \"Pokemon\" in their name?",
+    "q2a": "35",
+    "q3q": "What are the total global sales for games that are <strong>not</strong> published by Nintendo?",
+    "q3a": "7113.35",
+    "q4q": "What is 8x + y, where x = 9 and y = 4?",
+    "q4a": "76"
+  },
+  "F29R1ibztX": {
+    "q1q": "For video games released in the year \"2001\", how many more sales units were made in North America compared to Japan?",
+    "q1a": "133.44",
+    "q2q": "How many video games contain \"Wii\" in their name?",
+    "q2a": "52",
+    "q3q": "What are the total global sales for games that are published by Nintendo?",
+    "q3a": "1781.53",
+    "q4q": "What is 8x + y, where x = 11 and y = 4?",
+    "q4a": "92"
+  }
+}

@@ -1,0 +1,28 @@
+1. Get the HTML element for the Google Drive folder where the assignment files are stored
+   Copy the 'c-wiz' element containing the list of files
+   Paste the element in VS Code
+
+Use VS Code to:
+
+2. Minify the element as XML, then find all results for the XPath command:
+   //div/@data-id|//div[@aria-label]/text()
+	or
+   //c-wiz/@data-id|//div[@aria-label]/text()
+	
+3. Copy the XPath output to a file. Sample output:
+
+   [Line 17] data-id: 1XRcIu-mNqGIIFzJKupNoITJstOVBLIyP
+   [Line 17] null: 9
+   [Line 19] data-id: 1WVrXnns8wBTaV-ktKg3BH-oif-Ql6xAw
+   [Line 19] null: 4057338-A1-XRKD8lF82z.zip
+   [Line 21] data-id: 1Waw6Ru0_s13Po4y-OVditrCoTdnBDd_e
+   [Line 21] null: 9099684-A1-ZE9pvhaB01.zip
+   [Line 23] data-id: 1WYALqRaqN67sGyKP7SAo4CmaUpo-yg2p
+   [Line 23] null: 689565192-A1-b6T6X5RtZ.zip
+   [Line 25] data-id: 1XUqNTPs6shKoYLjCdEdrpVEoU7kn8c75
+   [Line 25] null: 9999999999999
+
+4. Find and Replace the XPath output (with RegEx enabled and without the quotation marks):
+   
+   Find: "\[.+data-id: " 		Replace with: ""
+   Find: "$\n\[.+null: " 		Replace with: ","
