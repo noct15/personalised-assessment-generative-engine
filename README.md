@@ -346,10 +346,16 @@ Ensure you have the following minimum versions of dependencies installed (instal
 - **CSV Parser for NodeJS and the Web** - v4.4.41
 - **REST Client for NodeJS** - v3.1.0
 
+**Note**: If you encounter any issues, make sure to check for package vulnerabilities and update your dependencies accordingly using `npm audit fix`.
+
 [Back to Top](#top)
 
 ---
 
-**Note**: If you encounter any issues, make sure to check for package vulnerabilities and update your dependencies accordingly using `npm audit fix`.
+## References
+
+- **[Canvas LMS REST API Documentation](https://canvas.instructure.com/doc/api/)**
+
+[Back to Top](#top)
 
 ---
